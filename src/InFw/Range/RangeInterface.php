@@ -9,7 +9,7 @@ namespace InFw\Range;
 /**
  * Interface Range.
  */
-interface Range
+interface RangeInterface
 {
     /**
      * Get Range min value.
