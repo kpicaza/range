@@ -24,13 +24,3 @@ tools:
         timeout: 600
         runs: 3
 
-build:
-    environment:
-        php: 5.6
-    tests:
-        override:
-            -
-                command: './bin/phpspec run'
-                coverage:
-                    file: 'coverage.clover'
-                    format: 'clover'
