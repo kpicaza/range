@@ -9,7 +9,7 @@ namespace InFw\Range;
 /**
  * Class AbstractRange.
  */
-abstract class AbstractRangeInterface implements RangeInterface
+abstract class AbstractRange implements RangeInterface
 {
     /**
      * Range minimum value.

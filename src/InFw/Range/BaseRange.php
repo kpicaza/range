@@ -9,6 +9,6 @@ namespace InFw\Range;
 /**
  * Class BaseRange.
  */
-class BaseRange extends AbstractRangeInterface
+class BaseRange extends AbstractRange
 {
 }
