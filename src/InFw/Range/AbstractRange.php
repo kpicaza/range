@@ -43,6 +43,12 @@ abstract class AbstractRange implements RangeInterface
             );
         }
 
+        if ($min > $max) {
+            throw new \InvalidArgumentException(
+                'Min value must be greater than ma value.'
+            );
+        }
+
         $this->min = $min;
         $this->max = $max;
     }

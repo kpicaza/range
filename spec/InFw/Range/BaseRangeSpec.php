@@ -52,7 +52,18 @@ class BaseRangeSpec extends ObjectBehavior
 
         $this->shouldThrow(
             \InvalidArgumentException::class
-        );
+        )->duringInstantiation();
     }
 
+    function it_must_thrown_an_exception_if_min_is_greater_then_max()
+    {
+        $this->beConstructedWith(
+            self::MAX_SIZE,
+            self::MIN_SIZE
+        );
+
+        $this->shouldThrow(
+            \InvalidArgumentException::class
+        )->duringInstantiation();
+    }
 }
