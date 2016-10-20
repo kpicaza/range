@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1476998820">
-  <project timestamp="1476998820">
+<coverage generated="1476999485">
+  <project timestamp="1476999485">
     <package name="InFw\Range">
       <file name="/home/kpicaza/server/todolist/crud/packages/range/src/InFw/Range/AbstractRange.php">
         <class name="AbstractRange" namespace="InFw\Range">
